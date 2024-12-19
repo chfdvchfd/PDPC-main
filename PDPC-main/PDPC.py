@@ -56,7 +56,7 @@ def calculate_clip_score(image, text):
 
 
 def generate_concept(image):
-    annotations_path = "support_data.json"
+    annotations_path = "support_text.json"
     with open(annotations_path, 'r') as f:
         coco_data = json.load(f)
     device = "cpu"
