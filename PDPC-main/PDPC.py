@@ -217,7 +217,7 @@ def PDPC(image):
 
 
 # test 
-image_path = "test.jpg"
+image_path = "example_image/you.jpg"
 image = Image.open(image_path)    
 text = PDPC(image)
 print(text)
